@@ -5,6 +5,6 @@ import java.util.ArrayList;
 
 public class Estudiante {
     private String nombre;
-    private int cedula;
+    private int edad;
     private ArrayList<Materia>  materias = new ArrayList<>();
 }

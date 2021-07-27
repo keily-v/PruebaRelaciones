@@ -1,12 +1,16 @@
 
 package dominio;
 
+import java.util.ArrayList;
+
 
 public class Facultad {
     
     public String nombre;
+    private Director director;
+    private Universidad universidad;
+    private ArrayList<Profesor>  profesores = new ArrayList<>();
+    private ArrayList<Carrera>  carreras = new ArrayList<>();
     
-    private Profesor[] profesores = new Profesor[30];
-    private Carrera[] carreras = new Carrera[3];
     
 }
