@@ -3,6 +3,7 @@ package dominio;
 
 
 public class Facultad {
+    
     public String nombre;
     
     private Profesor[] profesores = new Profesor[30];
